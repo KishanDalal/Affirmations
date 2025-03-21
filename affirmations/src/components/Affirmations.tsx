@@ -11,7 +11,7 @@ const Affirmation = () => {
       setLoading(true);
       setError(null);
       try {
-        const response = await fetch("https://www.affirmations.dev/");
+        const response = await fetch("/api");
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }
