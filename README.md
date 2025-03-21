@@ -64,3 +64,6 @@ This project helped me understand:
 * How to structure a simple React application with components.
 * How to use CSS Modules for scoped styling.
 * How to use Vite for rapid React development.
+
+![image](https://github.com/user-attachments/assets/132ac4ea-a0d2-4cfd-ac7f-7474a2d90698)
+
