@@ -1,0 +1,5 @@
+body,
+html {
+  overflow: hidden; /* Or overflow-y: hidden; for vertical only */
+  margin: 0; /* Remove default body margin */
+}

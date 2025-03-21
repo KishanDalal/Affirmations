@@ -1,5 +1,6 @@
 // Affirmation.js
 import { useState, useEffect } from "react";
+import style from "./Affirmations.module.css";
 
 const Affirmation = () => {
   const [affirmation, setAffirmation] = useState("");
@@ -36,8 +37,8 @@ const Affirmation = () => {
   }
 
   return (
-    <div>
-      <p>Hello: {affirmation}</p>
+    <div className={style.affirmationContainer}>
+      <p className={style.affirmationText}>{affirmation}</p>
     </div>
   );
 };
